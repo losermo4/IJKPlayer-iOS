@@ -18,7 +18,8 @@
   "platforms": {
     "ios": "8.0"
   },
-  "vendored_frameworks": "IJKMediaFramework.framework",
+  "vendored_frameworks": "IJKPlayer-iOS/Frameworks/*.framework",
+  "static_framework": true,
   "frameworks": [
     "AudioToolbox",
     "AVFoundation",
@@ -36,6 +37,7 @@
   "libraries": [
     "z",
     "c++",
-    "b2"
-  ]
+    "bz2"
+  ],
+  "requires_arc": true
 }

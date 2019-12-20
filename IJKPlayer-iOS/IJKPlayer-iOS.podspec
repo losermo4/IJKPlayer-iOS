@@ -36,10 +36,13 @@ TODO: Add long description of the pod here.
   #   'IJKPlayer-iOS' => ['IJKPlayer-iOS/Assets/*.png']
   # }
 
-  s.vendored_frameworks = 'IJKMediaFramework.framework'
+  s.vendored_frameworks = 'IJKPlayer-iOS/Frameworks/*.framework'
+  s.static_framework = true
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'AudioToolbox', 'AVFoundation', 'UIKit', 'MobileCoreServices', 'MediaPlayer', 'QuartzCore', 'VideoToolbox', 'CoreGraphics', 'CoreMedia', 'CoreVideo', 'OpenGLES', 'Foundation'
   #s.libraries = 'libz', 'libc++', 'libb2'
-  s.libraries = 'z', 'c++', 'b2'
+  s.libraries = 'z', 'c++', 'bz2'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.requires_arc = true
+  
 end

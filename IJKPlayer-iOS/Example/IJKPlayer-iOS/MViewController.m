@@ -7,6 +7,7 @@
 //
 
 #import "MViewController.h"
+#import <IJKMediaFramework/IJKMediaFramework.h>
 
 @interface MViewController ()
 
