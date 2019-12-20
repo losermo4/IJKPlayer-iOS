@@ -7,7 +7,7 @@
 //
 
 #import "MViewController.h"
-#import <IJKMediaFramework/IJKMediaFramework.h>
+#import "MPlayerViewController.h"
 
 @interface MViewController ()
 
@@ -19,6 +19,18 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    
+    UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(100, 100, 100, 88)];
+    button.backgroundColor = [UIColor orangeColor];
+    [self.view addSubview:button];
+    [button addTarget:self action:@selector(buttonAction) forControlEvents:UIControlEventTouchUpInside];
+    
+}
+
+- (void)buttonAction {
+    MPlayerViewController *player = [MPlayerViewController new];
+    [self presentViewController:player animated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning

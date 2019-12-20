@@ -22,6 +22,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		A247428523ACDCC9007503AE /* MPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A247428423ACDCC9007503AE /* MPlayerViewController.m */; };
 		D598373A7A6328BD7B33BDBF /* Pods_IJKPlayer_iOS_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B2D111D437C41027E85A558 /* Pods_IJKPlayer_iOS_Example.framework */; };
 		EB67E03759BAE67542CBD737 /* Pods_IJKPlayer_iOS_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE9678EB0F14961983E08EAB /* Pods_IJKPlayer_iOS_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -62,6 +63,8 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82FC91186CD30C033FA9B3D1 /* Pods-IJKPlayer-iOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IJKPlayer-iOS_Example.debug.xcconfig"; path = "Target Support Files/Pods-IJKPlayer-iOS_Example/Pods-IJKPlayer-iOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A247428323ACDCC9007503AE /* MPlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPlayerViewController.h; sourceTree = "<group>"; };
+		A247428423ACDCC9007503AE /* MPlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPlayerViewController.m; sourceTree = "<group>"; };
 		A76146E39ACE42DFC0684151 /* Pods-IJKPlayer-iOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IJKPlayer-iOS_Tests.release.xcconfig"; path = "Target Support Files/Pods-IJKPlayer-iOS_Tests/Pods-IJKPlayer-iOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B7E032F02BEECBE43E23981C /* IJKPlayer-iOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "IJKPlayer-iOS.podspec"; path = "../IJKPlayer-iOS.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DE9678EB0F14961983E08EAB /* Pods_IJKPlayer_iOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IJKPlayer_iOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -137,6 +140,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* MViewController.h */,
 				6003F5A6195388D20070C39A /* MViewController.m */,
+				A247428323ACDCC9007503AE /* MPlayerViewController.h */,
+				A247428423ACDCC9007503AE /* MPlayerViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -351,6 +356,7 @@
 				6003F59E195388D20070C39A /* MAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* MViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				A247428523ACDCC9007503AE /* MPlayerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
