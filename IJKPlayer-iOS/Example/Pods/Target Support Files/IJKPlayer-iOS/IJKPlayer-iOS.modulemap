@@ -1,0 +1,6 @@
+framework module IJKPlayer_iOS {
+  umbrella header "IJKPlayer-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

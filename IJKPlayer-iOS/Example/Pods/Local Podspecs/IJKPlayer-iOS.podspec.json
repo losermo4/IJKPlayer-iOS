@@ -1,0 +1,41 @@
+{
+  "name": "IJKPlayer-iOS",
+  "version": "0.1.0",
+  "summary": "A short description of IJKPlayer-iOS.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/losermo4@gmail.com/IJKPlayer-iOS",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "losermo4@gmail.com": "losermo4@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/losermo4@gmail.com/IJKPlayer-iOS.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "vendored_frameworks": "IJKMediaFramework.framework",
+  "frameworks": [
+    "AudioToolbox",
+    "AVFoundation",
+    "UIKit",
+    "MobileCoreServices",
+    "MediaPlayer",
+    "QuartzCore",
+    "VideoToolbox",
+    "CoreGraphics",
+    "CoreMedia",
+    "CoreVideo",
+    "OpenGLES",
+    "Foundation"
+  ],
+  "libraries": [
+    "z",
+    "c++",
+    "b2"
+  ]
+}

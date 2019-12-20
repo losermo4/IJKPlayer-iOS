@@ -1,0 +1,16 @@
+PODS:
+  - IJKPlayer-iOS (0.1.0)
+
+DEPENDENCIES:
+  - IJKPlayer-iOS (from `../`)
+
+EXTERNAL SOURCES:
+  IJKPlayer-iOS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  IJKPlayer-iOS: 2324c6125999c250e82cecfbb4df85982c64ab3d
+
+PODFILE CHECKSUM: a275f1bb28c5c7494276e57704fdc5d6dfd60011
+
+COCOAPODS: 1.8.4
